@@ -1,0 +1,16 @@
+@"
+# Python/Django
+__pycache__/
+*.py[cod]
+*.log
+db.sqlite3
+media/
+staticfiles/
+.env
+.venv/
+env/
+venv/
+# Editors/IDE
+.vscode/
+.idea/
+"@ | Set-Content .gitignore
